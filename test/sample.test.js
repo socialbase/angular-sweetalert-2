@@ -16,4 +16,14 @@ describe('Angular Sweet Alert module test', function() {
     expect(SweetAlertInstance).toBeDefined();
   });
 
+  it('returns an object containing the alert', function(done) {
+    try {
+      expect(typeof SweetAlertInstance).toBe('object');
+      expect(SweetAlertInstance.hasOwnProperty('swal')).toBeTruthy();
+      done();
+    } catch(e) {
+      done(e);
+    }
+  });
+
 });
