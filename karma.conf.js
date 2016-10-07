@@ -15,7 +15,13 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/*.test.js'
+      // load libraries first
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      // load module
+      'lib/angular-sweetalert2.js',
+      // load tests
+      'test/*.test.js',
     ],
 
 
