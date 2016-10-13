@@ -1,15 +1,19 @@
 # Angular Sweet Alert 2 
 
 Sweet Alert it's enough simple (maybe not?), so, here we have a simple port to Angular 1.x.
- 
+
+# Requirements 
+* Node >=5.12
+* Yarn or Npm
+
 # How to use?
 * Download & Install [Sweet Alert 2](https://limonte.github.io/sweetalert2/)
 ```bash
-npm install sweetalert2
+yarn add sweetalert2 --save Or npm install sweetalert2 --save
 ```
 * Download & Install angular-sweetalert-2
 ```bash
-npm install angular-sweetalert-2
+yarn add angular-sweetalert-2 Or npm install angular-sweetalert-2
 ```
 * Include socialbase.sweetAlert module
 ```javascript
